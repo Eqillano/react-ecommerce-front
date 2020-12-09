@@ -1,5 +1,5 @@
 import axios from "axios";
-const REACT_APP_API = "http://localhost:8000/api";
+const REACT_APP_API = "/api";
 
 export const createProduct = async (product, authtoken) =>
   await axios.post(`${REACT_APP_API}/product`, product, {
