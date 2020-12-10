@@ -4,7 +4,7 @@ import axios from "axios";
 import { useSelector } from "react-redux";
 import { Avatar, Badge } from "antd";
 
-const REACT_APP_API = "http://localhost:8000/api";
+const REACT_APP_API = "/api";
 
 const FileUpload = ({ values, setValues, setLoading }) => {
   const { user } = useSelector((state) => ({ ...state }));
